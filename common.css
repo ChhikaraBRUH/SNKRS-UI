@@ -1,0 +1,86 @@
+/* Importing Reset CSS */
+@import "/reset-css.css";
+
+/* Font Import */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;900&display=swap");
+
+/* Google Material Icons Import */
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+/* Declaring Variables */
+
+:root {
+	/* Colors */
+
+	--primary-color: #ff0016;
+	--primary-color-light: #ff3344;
+	--primary-color-darker: #cc0011;
+	--primary-color-disabled: #ff7f8a;
+	--secondary-color: #fff6ea;
+	--action-color: #3b82f6;
+	--yellow: #facc15;
+	--green: #22c55e;
+	--red: #dc2626;
+	--gray: #9a9a9a;
+	--black: #282828;
+	--white: #ffffff;
+	--lynx-white: #f7f7f7;
+	--violet: #5348c7;
+	--lynx-gray: #c5c5c5;
+
+	/* Spacing */
+
+	--space-xxl: 4rem;
+	--space-xl: 2.5rem;
+	--space-lg: 2rem;
+	--space-md: 1.5rem;
+	--space-sm: 1rem;
+	--space-xs: 0.5rem;
+
+	/* Border Radius */
+
+	--border-rad-sm: 0.3125rem;
+	--border-rad-md: 0.625rem;
+	--border-rad-lg: 0.9375rem;
+	--border-rad-full: 50%;
+}
+
+/* Typography */
+
+html {
+	font-size: 16px;
+}
+
+body {
+	font-family: "Montserrat", sans-serif;
+}
+
+h1,
+.text-xl {
+	font-size: 3rem;
+	line-height: 4rem;
+}
+
+h2,
+.text-lg {
+	font-size: 2rem;
+	line-height: 2.5rem;
+}
+
+h3,
+.text-md {
+	font-size: 1.5rem;
+	line-height: 2rem;
+}
+
+h4,
+.text-sm {
+	font-size: 1rem;
+	line-height: 1.5rem;
+}
+
+h5,
+.text-xs {
+	font-size: 0.5rem;
+	line-height: 1rem;
+}

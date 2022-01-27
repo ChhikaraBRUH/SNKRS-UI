@@ -84,3 +84,21 @@ h5,
 	font-size: 0.5rem;
 	line-height: 1rem;
 }
+
+/* Component Info Text */
+
+.text-title {
+	color: var(--black);
+}
+
+.text-description {
+	color: var(--gray);
+}
+
+hr {
+	width: 80%;
+	align-self: flex-start;
+	margin: var(--space-sm) 0rem;
+	border: none;
+	border-top: 1px solid var(--gray);
+}

@@ -5,7 +5,33 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;900&display=swap");
 
 /* Google Material Icons Import */
-@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+@import url("https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp");
+
+.material-icons.md-18 {
+	font-size: 18px;
+}
+.material-icons.md-24 {
+	font-size: 24px;
+}
+.material-icons.md-36 {
+	font-size: 36px;
+}
+.material-icons.md-48 {
+	font-size: 48px;
+}
+
+.material-icons-outlined.md-18 {
+	font-size: 18px;
+}
+.material-icons-outlined.md-24 {
+	font-size: 24px;
+}
+.material-icons-outlined.md-36 {
+	font-size: 36px;
+}
+.material-icons-outlined.md-48 {
+	font-size: 48px;
+}
 
 /* Declaring Variables */
 
@@ -18,8 +44,8 @@
 	--primary-color-disabled: #ff7f8a;
 	--secondary-color: #fff6ea;
 	--action-color: #3b82f6;
-	--yellow: #facc15;
-	--green: #22c55e;
+	--yellow: #eab308;
+	--green: #16a34a;
 	--red: #dc2626;
 	--gray: #9a9a9a;
 	--black: #282828;
@@ -53,6 +79,8 @@ html {
 
 body {
 	font-family: "Montserrat", sans-serif;
+	display: flex;
+	flex-direction: column;
 }
 
 h1,
@@ -83,4 +111,40 @@ h5,
 .text-xs {
 	font-size: 0.5rem;
 	line-height: 1rem;
+}
+
+/* Wrapper Div */
+
+.wrapper {
+	width: 70vw;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: var(--space-sm);
+	margin: var(--space-lg);
+}
+
+/* Component Info Div */
+
+.text-title {
+	color: var(--black);
+}
+
+.text-description {
+	color: var(--gray);
+}
+
+.component-info-div {
+	display: flex;
+	width: 80%;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+hr {
+	width: 80%;
+	align-self: flex-start;
+	margin: var(--space-sm) 0rem;
+	border: none;
+	border-top: 1px solid var(--gray);
 }

@@ -1,0 +1,51 @@
+@import "/Components/Avatar/avatar.css";
+
+/* Badge Container for multiple badges */
+.badge-container {
+	display: flex;
+	align-items: flex-end;
+	gap: var(--space-lg);
+}
+
+/* Single Badge Div */
+.badge-div {
+	position: relative;
+	text-align: center;
+}
+
+/* Badge on Avatar */
+.badge-avatar {
+	position: absolute;
+	width: 20%;
+	height: 20%;
+	border-radius: var(--border-rad-full);
+	border: 2px solid var(--white);
+	bottom: 6%;
+	right: 6%;
+	background-color: var(--black);
+}
+
+/* Badge Colors */
+.badge-green {
+	background-color: var(--green);
+}
+
+.badge-yellow {
+	background-color: var(--yellow);
+}
+
+.badge-red {
+	background-color: var(--red);
+}
+
+/* Badge on Icons */
+.badge-icon {
+	position: absolute;
+	width: 40%;
+	height: 40%;
+	border-radius: var(--border-rad-full);
+	top: 0%;
+	right: -5%;
+	background-color: var(--violet);
+	color: var(--white);
+}

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Button Component</title>
+		<link rel="stylesheet" href="button.css" />
+	</head>
+	<body>
+		<div class="wrapper">
+			<!-- Page Heading -->
+
+			<div class="component-info-div">
+				<h2 class="text-title">Button</h2>
+				<p class="text-description">
+					Buttons allow users to take actions, and make choices, with a single
+					tap.
+				</p>
+				<hr />
+			</div>
+
+			<!-- Default Contained Buttons -->
+			<div class="component-info-div">
+				<h3 class="text-title">Default Contained Button</h3>
+				<p class="text-description">
+					Contained buttons are high-emphasis, distinguished by their use of
+					elevation and fill. They contain actions that are primary to your app.
+				</p>
+				<br />
+
+				<div class="btn-container">
+					<button class="btn">Default</button>
+					<button class="btn btn-primary">Primary</button>
+					<button class="btn btn-secondary">Secondary</button>
+					<button class="btn btn-disabled">Disabled</button>
+				</div>
+
+				<br />
+
+				<iframe
+					src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=sharp&l=htmlmixed&width=559.75&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=15.5px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2522%253EDefault%253C%252Fbutton%253E%250A%250A%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253EPrimary%253C%252Fbutton%253E%250A%250A%253Cbutton%2520class%253D%2522btn%2520btn-secondary%2522%253ESecondary%253C%252Fbutton%253E%250A%250A%253Cbutton%2520class%253D%2522btn%2520btn-disabled%2522%253EDisabled%253C%252Fbutton%253E"
+					style="
+						width: 540px;
+						height: 218px;
+						border: 0;
+						transform: scale(1);
+						overflow: hidden;
+					"
+					sandbox="allow-scripts allow-same-origin"
+				>
+				</iframe>
+
+				<hr />
+			</div>
+
+			<!-- Outlined Buttons -->
+			<div class="component-info-div">
+				<h3 class="text-title">Outlined Button</h3>
+				<p class="text-description">
+					Outlined buttons are medium-emphasis buttons. They contain actions
+					that are important, but aren’t the primary action in an app. Outlined
+					buttons are also a lower emphasis alternative to contained buttons, or
+					a higher emphasis alternative to text buttons.
+				</p>
+				<br />
+
+				<div class="btn-container">
+					<button class="btn btn-primary-outlined">Primary</button>
+					<button class="btn btn-secondary-outlined">Secondary</button>
+				</div>
+				<br />
+
+				<iframe
+					src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=sharp&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=15.5px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-primary-outlined%2522%253EPrimary%253C%252Fbutton%253E%250A%250A%253Cbutton%2520class%253D%2522btn%2520btn-secondary-outlined%2522%253ESecondary%253C%252Fbutton%253E"
+					style="
+						width: 670px;
+						height: 136px;
+						border: 0;
+						transform: scale(1);
+						overflow: hidden;
+					"
+					sandbox="allow-scripts allow-same-origin"
+				>
+				</iframe>
+
+				<hr />
+			</div>
+
+			<!-- Buttons with Icons -->
+			<div class="component-info-div">
+				<h3 class="text-title">Buttons with Icons</h3>
+				<p class="text-description">
+					Sometimes you might want to have icons for certain button to enhance
+					the UX of the application as we recognize logos more easily than plain
+					text. For example, if you have a delete button you can label it with a
+					dustbin icon.
+				</p>
+				<br />
+
+				<div class="btn-container">
+					<button class="btn btn-primary">
+						<div class="material-icons-outlined">delete_outline</div>
+						Delete
+					</button>
+
+					<button class="btn btn-secondary">
+						Send
+						<div class="material-icons-outlined">send</div>
+					</button>
+					<button class="btn">
+						<div class="material-icons-outlined">cloud_upload</div>
+						Upload
+					</button>
+				</div>
+				<br />
+
+				<iframe
+					src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=sharp&l=htmlmixed&width=670.5&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=15.5px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253E%250A%2509%253Cdiv%2520class%253D%2522material-icons-outlined%2522%253Edelete_outline%253C%252Fdiv%253E%250A%2520%2520Delete%250A%253C%252Fbutton%253E%250A%250A%253Cbutton%2520class%253D%2522btn%2520btn-secondary%2522%253E%250A%2520%2520Send%250A%2509%253Cdiv%2520class%253D%2522material-icons-outlined%2522%253Esend%253C%252Fdiv%253E%250A%253C%252Fbutton%253E%250A%250A%253Cbutton%2520class%253D%2522btn%2522%253E%250A%2509%253Cdiv%2520class%253D%2522material-icons-outlined%2522%253Ecloud_upload%253C%252Fdiv%253E%250A%2520%2520Upload%250A%253C%252Fbutton%253E"
+					style="
+						width: 685px;
+						height: 363px;
+						border: 0;
+						transform: scale(1);
+						overflow: hidden;
+					"
+					sandbox="allow-scripts allow-same-origin"
+				>
+				</iframe>
+
+				<hr />
+			</div>
+
+			<!-- Floating Action Buttons -->
+			<div class="component-info-div">
+				<h3 class="text-title">Floating Action Buttons</h3>
+				<p class="text-description">
+					Icons are also appropriate for toggle buttons that allow a single
+					choice to be selected or deselected, such as adding or removing a star
+					to an item.
+				</p>
+				<br />
+
+				<div class="btn-container">
+					<button class="btn btn-primary btn-floating">
+						<div class="material-icons-outlined">delete_outline</div>
+					</button>
+
+					<button class="btn btn-secondary btn-floating">
+						<div class="material-icons-outlined">send</div>
+					</button>
+					<button class="btn btn-floating">
+						<div class="material-icons-outlined">cloud_upload</div>
+					</button>
+				</div>
+				<br />
+				<iframe
+					src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=sharp&l=htmlmixed&width=685&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=15.5px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-primary%2520btn-floating%2522%253E%250A%2509%253Cdiv%2520class%253D%2522material-icons-outlined%2522%253Edelete_outline%253C%252Fdiv%253E%250A%253C%252Fbutton%253E%250A%250A%253Cbutton%2520class%253D%2522btn%2520btn-secondary%2520btn-floating%2522%253E%250A%2509%253Cdiv%2520class%253D%2522material-icons-outlined%2522%253Esend%253C%252Fdiv%253E%250A%253C%252Fbutton%253E%250A%250A%253Cbutton%2520class%253D%2522btn%2520btn-floating%2522%253E%250A%2509%253Cdiv%2520class%253D%2522material-icons-outlined%2522%253Ecloud_upload%253C%252Fdiv%253E%250A%253C%252Fbutton%253E"
+					style="
+						width: 685px;
+						height: 301px;
+						border: 0;
+						transform: scale(1);
+						overflow: hidden;
+					"
+					sandbox="allow-scripts allow-same-origin"
+				>
+				</iframe>
+
+				<hr />
+			</div>
+		</div>
+	</body>
+</html>

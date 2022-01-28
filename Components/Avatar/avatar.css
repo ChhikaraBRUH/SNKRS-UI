@@ -1,0 +1,46 @@
+/* Importing Common CSS File */
+
+@import "/common.css";
+
+/* avatar container */
+
+.avatar-container {
+	display: flex;
+	align-items: flex-end;
+	gap: var(--space-lg);
+}
+
+/* avatar */
+
+.avatar {
+	width: 5rem;
+	height: 5rem;
+	position: relative;
+	object-fit: cover;
+	border-radius: var(--border-rad-full);
+}
+
+.avatar-square {
+	border-radius: 0;
+}
+
+.avatar-rounded-corner {
+	border-radius: var(--border-rad-lg);
+}
+
+/* Avatar Sizing */
+
+.avatar-lg {
+	height: 8rem;
+	width: 8rem;
+}
+
+.avatar-md {
+	height: 6rem;
+	width: 6rem;
+}
+
+.avatar-sm {
+	height: 4rem;
+	width: 4rem;
+}

@@ -1,0 +1,29 @@
+/* Importing Common CSS File  */
+
+@import "/common.css";
+
+/* Image Container */
+
+.img-container {
+	display: flex;
+	justify-content: flex-start;
+}
+
+/* Responsive Image */
+
+.img-responsive {
+	max-width: 100%;
+	height: auto;
+}
+
+/* Rounded Corners Image */
+
+.img-rounded-corners {
+	border-radius: var(--border-rad-lg);
+}
+
+/* Circle Images */
+
+.img-circle {
+	border-radius: var(--border-rad-full);
+}

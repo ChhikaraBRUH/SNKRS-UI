@@ -1,0 +1,84 @@
+/* Importing Common CSS File */
+@import "/common.css";
+
+/* Button Container */
+.btn-container {
+	display: flex;
+	align-items: flex-start;
+	gap: var(--space-sm);
+	flex-wrap: wrap;
+}
+
+/* Default Button and Hover Variant */
+.btn {
+	border: none;
+	padding: var(--space-sm);
+	box-shadow: 0 0.5rem 0.5rem -0.5rem var(--black);
+	border-radius: var(--border-rad-sm);
+	text-transform: uppercase;
+	font-family: inherit;
+	font-weight: 400;
+	letter-spacing: 1.2px;
+	font-size: 1rem;
+	cursor: pointer;
+	color: var(--black);
+	display: inline-flex;
+	align-items: center;
+	gap: var(--space-sm);
+}
+
+.btn:hover {
+	filter: brightness(90%);
+	transition: all 0.4s ease-in-out;
+}
+
+/* Button Contained Variants */
+
+.btn-primary {
+	background-color: var(--primary-color);
+	color: var(--white);
+}
+
+.btn-secondary {
+	background-color: var(--secondary-color);
+	color: var(--white);
+}
+
+.btn-disabled {
+	background-color: var(--gray);
+	color: var(--black);
+	pointer-events: none;
+	opacity: 0.7;
+}
+
+/* Button Outlined Variants */
+
+.btn-primary-outlined {
+	background-color: var(--white);
+	border: 2px solid var(--primary-color);
+}
+
+.btn-secondary-outlined {
+	background-color: var(--white);
+	border: 2px solid var(--secondary-color);
+}
+
+/* Button Outlined Hover Variants */
+
+.btn-primary-outlined:hover {
+	filter: brightness(100%);
+	background-color: var(--primary-color);
+	color: var(--white);
+}
+
+.btn-secondary-outlined:hover {
+	filter: brightness(100%);
+	background-color: var(--secondary-color);
+	color: var(--white);
+}
+
+/* Floating Action Button */
+
+.btn-floating {
+	border-radius: var(--border-rad-full);
+}

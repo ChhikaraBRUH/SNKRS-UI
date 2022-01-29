@@ -42,11 +42,15 @@
 	--primary-color-light: #ff3344;
 	--primary-color-darker: #cc0011;
 	--primary-color-disabled: #ff7f8a;
-	--secondary-color: #fff6ea;
-	--action-color: #3b82f6;
+	--secondary-color: #3b82f6;
+	--blue: #0369a1;
+	--blue-light: #7dd3fc;
 	--yellow: #eab308;
-	--green: #16a34a;
+	--yellow-light: #fde778;
+	--green: #047857;
+	--green-light: #86efac;
 	--red: #dc2626;
+	--red-light: #fca5a5;
 	--gray: #9a9a9a;
 	--black: #282828;
 	--white: #ffffff;

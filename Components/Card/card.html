@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Card Component</title>
+		<link rel="stylesheet" href="card.css" />
+	</head>
+
+	<body>
+		<div class="wrapper">
+			<!-- Page Heading -->
+
+			<div class="component-info-div">
+				<h2 class="text-title">Card Component</h2>
+				<p class="text-description">
+					Cards are surfaces that display content and actions on a single topic.
+					They should be easy to scan for relevant and actionable information.
+					Elements, like text and images, should be placed on them in a way that
+					clearly indicates hierarchy.
+				</p>
+				<hr />
+			</div>
+
+			<!-- Card With Badge Usage -->
+
+			<div class="component-info-div">
+				<h3 class="text-title">Card With Badge</h3>
+
+				<br />
+
+				<div class="card-container">
+					<div class="card-default">
+						<div class="card-header">
+							<div class="card-label">NEW</div>
+							<div
+								class="card-dismiss-btn card-hidden-element material-icons-outlined"
+							>
+								cancel
+							</div>
+
+							<div class="card-img-div">
+								<img
+									src="/Components/Card/Images/card-image.jpg"
+									class="card-img"
+								/>
+							</div>
+
+							<div class="card-text-div">
+								<h3 class="card-title">Card Title</h3>
+								<h4 class="card-subtitle">Card Subtitle</h4>
+							</div>
+						</div>
+
+						<div class="card-middle">
+							<p class="card-description">
+								This is the description text for the card. This is the
+								description text for the card.
+							</p>
+						</div>
+
+						<div class="card-footer">
+							<h4>Price: $400</h4>
+							<button class="card-button"><a href="#">Button</a></button>
+						</div>
+					</div>
+				</div>
+
+				<br />
+				<iframe
+					src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=sharp&l=htmlmixed&width=1036.5&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=15.5px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-container%2522%253E%250A%2509%253Cdiv%2520class%253D%2522card-default%2522%253E%250A%2509%2509%253Cdiv%2520class%253D%2522card-header%2522%253E%250A%2509%2509%2509%253Cdiv%2520class%253D%2522card-label%2522%253ENEW%253C%252Fdiv%253E%250A%2509%2509%2509%253Cdiv%2520class%253D%2522card-dismiss-btn%2520card-hidden-element%2520material-icons-outlined%2522%253Ecancel%253C%252Fdiv%253E%250A%2509%2509%2509%253Cdiv%2520class%253D%2522card-img-div%2522%253E%250A%2509%2509%2509%2509%253Cimg%2520src%253D%2522%252FComponents%252FCard%252FImages%252Fcard-image.jpg%2522%2520class%253D%2522card-img%2522%2520%252F%253E%250A%2509%2509%2509%253C%252Fdiv%253E%250A%250A%2509%2509%2509%253Cdiv%2520class%253D%2522card-text-div%2522%253E%250A%2509%2509%2509%2509%253Ch3%2520class%253D%2522card-title%2522%253ECard%2520Title%253C%252Fh3%253E%250A%2509%2509%2509%2509%253Ch4%2520class%253D%2522card-subtitle%2522%253ECard%2520Subtitle%253C%252Fh4%253E%250A%2509%2509%2509%253C%252Fdiv%253E%250A%2509%2509%253C%252Fdiv%253E%250A%250A%2509%2509%253Cdiv%2520class%253D%2522card-middle%2522%253E%250A%2509%2509%2509%253Cp%2520class%253D%2522card-description%2522%253E%250A%2509%2509%2509This%2520is%2520the%2520description%2520text%2520for%2520the%2520card.%2520This%2520is%2520the%2520description%2520text%2520for%2520the%2520card.%250A%2509%2509%2509%253C%252Fp%253E%250A%2509%2509%253C%252Fdiv%253E%250A%250A%2509%2509%253Cdiv%2520class%253D%2522card-footer%2522%253E%250A%2509%2509%2509%253Ch4%253EPrice%253A%2520%2524400%253C%252Fh4%253E%250A%2509%2509%2509%253Cbutton%2520class%253D%2522card-button%2522%253E%253Ca%2520href%253D%2522%2523%2522%253EButton%253C%252Fa%253E%253C%252Fbutton%253E%250A%2509%2509%253C%252Fdiv%253E%250A%2509%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+					style="
+						width: 1050px;
+						height: 631px;
+						border: 0;
+						transform: scale(1);
+						overflow: hidden;
+					"
+					sandbox="allow-scripts allow-same-origin"
+				>
+				</iframe>
+				<hr />
+			</div>
+
+			<!-- Card With Dismiss -->
+
+			<div class="component-info-div">
+				<h3 class="text-title">Card With Dismiss</h3>
+
+				<br />
+
+				<div class="card-container">
+					<div class="card-default">
+						<div class="card-header">
+							<div class="card-label card-hidden-element">NEW</div>
+							<div class="card-dismiss-btn material-icons-outlined">cancel</div>
+
+							<div class="card-img-div">
+								<img
+									src="/Components/Card/Images/card-image.jpg"
+									class="card-img"
+								/>
+							</div>
+
+							<div class="card-text-div">
+								<h3 class="card-title">Card Title</h3>
+								<h4 class="card-subtitle">Card Subtitle</h4>
+							</div>
+						</div>
+
+						<div class="card-middle">
+							<p class="card-description">
+								This is the description text for the card. This is the
+								description text for the card.
+							</p>
+						</div>
+
+						<div class="card-footer">
+							<h4>Price: $400</h4>
+							<button class="card-button"><a href="#">Button</a></button>
+						</div>
+					</div>
+				</div>
+
+				<br />
+				<iframe
+					src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=sharp&l=htmlmixed&width=1049.5&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=15.5px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-container%2522%253E%250A%2509%253Cdiv%2520class%253D%2522card-default%2522%253E%250A%2509%2509%253Cdiv%2520class%253D%2522card-header%2522%253E%250A%2509%2509%2509%253Cdiv%2520class%253D%2522card-label%2520card-hidden-element%2522%253ENEW%253C%252Fdiv%253E%250A%2509%2509%2509%253Cdiv%2520class%253D%2522card-dismiss-btn%2520material-icons-outlined%2522%253Ecancel%253C%252Fdiv%253E%250A%2509%2509%2509%253Cdiv%2520class%253D%2522card-img-div%2522%253E%250A%2509%2509%2509%2509%253Cimg%2520src%253D%2522%252FComponents%252FCard%252FImages%252Fcard-image.jpg%2522%2520class%253D%2522card-img%2522%2520%252F%253E%250A%2509%2509%2509%253C%252Fdiv%253E%250A%250A%2509%2509%2509%253Cdiv%2520class%253D%2522card-text-div%2522%253E%250A%2509%2509%2509%2509%253Ch3%2520class%253D%2522card-title%2522%253ECard%2520Title%253C%252Fh3%253E%250A%2509%2509%2509%2509%253Ch4%2520class%253D%2522card-subtitle%2522%253ECard%2520Subtitle%253C%252Fh4%253E%250A%2509%2509%2509%253C%252Fdiv%253E%250A%2509%2509%253C%252Fdiv%253E%250A%250A%2509%2509%253Cdiv%2520class%253D%2522card-middle%2522%253E%250A%2509%2509%2509%253Cp%2520class%253D%2522card-description%2522%253E%250A%2509%2509%2509This%2520is%2520the%2520description%2520text%2520for%2520the%2520card.%2520This%2520is%2520the%2520description%2520text%2520for%2520the%2520card.%250A%2509%2509%2509%253C%252Fp%253E%250A%2509%2509%253C%252Fdiv%253E%250A%250A%2509%2509%253Cdiv%2520class%253D%2522card-footer%2522%253E%250A%2509%2509%2509%253Ch4%253EPrice%253A%2520%2524400%253C%252Fh4%253E%250A%2509%2509%2509%253Cbutton%2520class%253D%2522card-button%2522%253E%253Ca%2520href%253D%2522%2523%2522%253EButton%253C%252Fa%253E%253C%252Fbutton%253E%250A%2509%2509%253C%252Fdiv%253E%250A%2509%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+					style="
+						width: 1050px;
+						height: 631px;
+						border: 0;
+						transform: scale(1);
+						overflow: hidden;
+					"
+					sandbox="allow-scripts allow-same-origin"
+				>
+				</iframe>
+				<hr />
+			</div>
+
+			<!-- Text Only Card -->
+
+			<div class="component-info-div">
+				<h3 class="text-title">Text Only Card</h3>
+
+				<br />
+
+				<div class="card-container">
+					<div class="card-default">
+						<div class="card-header">
+							<div class="card-label card-hidden-element">NEW</div>
+							<div
+								class="card-dismiss-btn card-hidden-element material-icons-outlined"
+							>
+								cancel
+							</div>
+
+							<div class="card-img-div card-hidden-element">
+								<img
+									src="/Components/Card/Images/card-image.jpg"
+									class="card-img"
+								/>
+							</div>
+
+							<div class="card-text-div">
+								<h3 class="card-title">Card Title</h3>
+								<h4 class="card-subtitle">Card Subtitle</h4>
+							</div>
+						</div>
+
+						<div class="card-middle">
+							<p class="card-description">
+								This is the description text for the card. This is the
+								description text for the card.
+							</p>
+						</div>
+
+						<div class="card-footer">
+							<h4>Price: $400</h4>
+							<button class="card-button"><a href="#">Button</a></button>
+						</div>
+					</div>
+				</div>
+
+				<br />
+				<iframe
+					src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=sharp&l=htmlmixed&width=1049.5&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=15.5px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-container%2522%253E%250A%2509%253Cdiv%2520class%253D%2522card-default%2522%253E%250A%2509%2509%253Cdiv%2520class%253D%2522card-header%2522%253E%250A%2509%2509%2509%253Cdiv%2520class%253D%2522card-label%2520card-hidden-element%2522%253ENEW%253C%252Fdiv%253E%250A%2509%2509%2509%253Cdiv%2520class%253D%2522card-dismiss-btn%2520card-hidden-element%2520material-icons-outlined%2522%253Ecancel%253C%252Fdiv%253E%250A%250A%2509%2509%2509%253Cdiv%2520class%253D%2522card-img-div%2520card-hidden-element%2522%253E%250A%2509%2509%2509%2509%253Cimg%2520src%253D%2522%252FComponents%252FCard%252FImages%252Fcard-image.jpg%2522%2520class%253D%2522card-img%2522%252F%253E%250A%2509%2509%2509%253C%252Fdiv%253E%250A%250A%2509%2509%2509%253Cdiv%2520class%253D%2522card-text-div%2522%253E%250A%2509%2509%2509%2509%253Ch3%2520class%253D%2522card-title%2522%253ECard%2520Title%253C%252Fh3%253E%250A%2509%2509%2509%2509%253Ch4%2520class%253D%2522card-subtitle%2522%253ECard%2520Subtitle%253C%252Fh4%253E%250A%2509%2509%2509%253C%252Fdiv%253E%250A%2509%2509%253C%252Fdiv%253E%250A%250A%2509%2509%253Cdiv%2520class%253D%2522card-middle%2522%253E%250A%2509%2509%2509%253Cp%2520class%253D%2522card-description%2522%253E%250A%2509%2509%2509This%2520is%2520the%2520description%2520text%2520for%2520the%2520card.%2520This%2520is%2520the%2520description%2520text%2520for%2520the%2520card.%250A%2509%2509%2509%253C%252Fp%253E%250A%2509%2509%253C%252Fdiv%253E%250A%250A%2509%2509%253Cdiv%2520class%253D%2522card-footer%2522%253E%250A%2509%2509%2509%253Ch4%253EPrice%253A%2520%2524400%253C%252Fh4%253E%250A%2509%2509%2509%253Cbutton%2520class%253D%2522card-button%2522%253E%253Ca%2520href%253D%2522%2523%2522%253EButton%253C%252Fa%253E%253C%252Fbutton%253E%250A%2509%2509%253C%252Fdiv%253E%250A%2509%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+					style="
+						width: 1050px;
+						height: 651px;
+						border: 0;
+						transform: scale(1);
+						overflow: hidden;
+					"
+					sandbox="allow-scripts allow-same-origin"
+				>
+				</iframe>
+				<hr />
+			</div>
+
+			<!-- Card With Text Overlay -->
+
+			<div class="component-info-div">
+				<h3 class="text-title">Card With Text Overlay</h3>
+
+				<br />
+
+				<div class="card-container">
+					<div class="card-default">
+						<div class="card-header">
+							<div class="card-label card-hidden-element">NEW</div>
+							<div
+								class="card-dismiss-btn card-hidden-element material-icons-outlined"
+							>
+								cancel
+							</div>
+
+							<div class="card-img-div">
+								<img
+									src="/Components/Card/Images/card-image.jpg"
+									class="card-img"
+								/>
+							</div>
+
+							<div class="card-text-div card-text-overlay-title-div">
+								<h3 class="card-title card-text-overlay-title">Card Title</h3>
+								<h4 class="card-subtitle card-text-overlay-subtitle">
+									Card Subtitle
+								</h4>
+							</div>
+						</div>
+
+						<div class="card-middle">
+							<p class="card-description">
+								This is the description text for the card. This is the
+								description text for the card.
+							</p>
+						</div>
+
+						<div class="card-footer">
+							<h4>Price: $400</h4>
+							<button class="card-button"><a href="#">Button</a></button>
+						</div>
+					</div>
+				</div>
+
+				<br />
+				<iframe
+					src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=sharp&l=htmlmixed&width=1049.5&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=15.5px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-container%2522%253E%250A%2509%253Cdiv%2520class%253D%2522card-default%2522%253E%250A%2509%2509%253Cdiv%2520class%253D%2522card-header%2522%253E%250A%2509%2509%2509%253Cdiv%2520class%253D%2522card-label%2520card-hidden-element%2522%253ENEW%253C%252Fdiv%253E%250A%2509%2509%2509%253Cdiv%2520class%253D%2522card-dismiss-btn%2520card-hidden-element%2520material-icons-outlined%2522%253Ecancel%253C%252Fdiv%253E%250A%250A%2509%2509%2509%253Cdiv%2520class%253D%2522card-img-div%2522%253E%250A%2509%2509%2509%2509%253Cimg%2520src%253D%2522%252FComponents%252FCard%252FImages%252Fcard-image.jpg%2522%2520class%253D%2522card-img%2522%2520%252F%253E%250A%2509%2509%2509%253C%252Fdiv%253E%250A%250A%2509%2509%2509%253Cdiv%2520class%253D%2522card-text-div%2520card-text-overlay-title-div%2522%253E%250A%2509%2509%2509%2509%253Ch3%2520class%253D%2522card-title%2520card-text-overlay-title%2522%253ECard%2520Title%253C%252Fh3%253E%250A%2509%2509%2509%2509%253Ch4%2520class%253D%2522card-subtitle%2520card-text-overlay-subtitle%2522%253ECard%2520Subtitle%253C%252Fh4%253E%250A%2509%2509%2509%253C%252Fdiv%253E%250A%2509%2509%253C%252Fdiv%253E%250A%250A%2509%2509%253Cdiv%2520class%253D%2522card-middle%2522%253E%250A%2509%2509%2509%253Cp%2520class%253D%2522card-description%2522%253E%250A%2509%2509%2509This%2520is%2520the%2520description%2520text%2520for%2520the%2520card.%2520This%2520is%2520the%2520description%2520text%2520for%2520the%2520card.%253C%252Fp%253E%250A%2509%2509%253C%252Fdiv%253E%250A%250A%2509%2509%253Cdiv%2520class%253D%2522card-footer%2522%253E%250A%2509%2509%2509%253Ch4%253EPrice%253A%2520%2524400%253C%252Fh4%253E%250A%2509%2509%2509%253Cbutton%2520class%253D%2522card-button%2522%253E%253Ca%2520href%253D%2522%2523%2522%253EButton%253C%252Fa%253E%253C%252Fbutton%253E%250A%2509%2509%253C%252Fdiv%253E%250A%2509%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+					style="
+						width: 1050px;
+						height: 631px;
+						border: 0;
+						transform: scale(1);
+						overflow: hidden;
+					"
+					sandbox="allow-scripts allow-same-origin"
+				>
+				</iframe>
+				<hr />
+			</div>
+
+			<!-- Card With Shadow Usage -->
+
+			<div class="component-info-div">
+				<h3 class="text-title">Card With Shadow</h3>
+
+				<br />
+
+				<div class="card-container card-shadow">
+					<div class="card-default">
+						<div class="card-header">
+							<div class="card-label card-hidden-element">NEW</div>
+							<div
+								class="card-dismiss-btn card-hidden-element material-icons-outlined"
+							>
+								cancel
+							</div>
+
+							<div class="card-img-div">
+								<img
+									src="/Components/Card/Images/card-image.jpg"
+									class="card-img"
+								/>
+							</div>
+
+							<div class="card-text-div">
+								<h3 class="card-title">Card Title</h3>
+								<h4 class="card-subtitle">Card Subtitle</h4>
+							</div>
+						</div>
+
+						<div class="card-middle">
+							<p class="card-description">
+								This is the description text for the card. This is the
+								description text for the card.
+							</p>
+						</div>
+
+						<div class="card-footer">
+							<h4>Price: $400</h4>
+							<button class="card-button"><a href="#">Button</a></button>
+						</div>
+					</div>
+				</div>
+
+				<br />
+				<iframe
+					src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=sharp&l=htmlmixed&width=1049.5&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=15.5px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-container%2520card-shadow%2522%253E%250A%2509%253Cdiv%2520class%253D%2522card-default%2522%253E%250A%2509%2509%253Cdiv%2520class%253D%2522card-header%2522%253E%250A%2509%2509%2509%253Cdiv%2520class%253D%2522card-label%2520card-hidden-element%2522%253ENEW%253C%252Fdiv%253E%250A%2509%2509%2509%253Cdiv%2520class%253D%2522card-dismiss-btn%2520card-hidden-element%2520material-icons-outlined%2522%253Ecancel%253C%252Fdiv%253E%250A%250A%2509%2509%2509%253Cdiv%2520class%253D%2522card-img-div%2522%253E%250A%2509%2509%2509%2509%253Cimg%2520src%253D%2522%252FComponents%252FCard%252FImages%252Fcard-image.jpg%2522%2520class%253D%2522card-img%2522%2520%252F%253E%250A%2509%2509%2509%253C%252Fdiv%253E%250A%250A%2509%2509%2509%253Cdiv%2520class%253D%2522card-text-div%2522%253E%250A%2509%2509%2509%2509%253Ch3%2520class%253D%2522card-title%2522%253ECard%2520Title%253C%252Fh3%253E%250A%2509%2509%2509%2509%253Ch4%2520class%253D%2522card-subtitle%2522%253ECard%2520Subtitle%253C%252Fh4%253E%250A%2509%2509%2509%253C%252Fdiv%253E%250A%2509%2509%253C%252Fdiv%253E%250A%250A%2509%2509%253Cdiv%2520class%253D%2522card-middle%2522%253E%250A%2509%2509%2509%253Cp%2520class%253D%2522card-description%2522%253E%250A%2509%2509%2509This%2520is%2520the%2520description%2520text%2520for%2520the%2520card.%2520This%2520is%2520the%2520description%2520text%2520for%2520the%2520card.%250A%2509%2509%2509%253C%252Fp%253E%250A%2509%2509%253C%252Fdiv%253E%250A%250A%2509%2509%253Cdiv%2520class%253D%2522card-footer%2522%253E%250A%2509%2509%2509%253Ch4%253EPrice%253A%2520%2524400%253C%252Fh4%253E%250A%2509%2509%2509%253Cbutton%2520class%253D%2522card-button%2522%253E%253Ca%2520href%253D%2522%2523%2522%253EButton%253C%252Fa%253E%253C%252Fbutton%253E%250A%2509%2509%253C%252Fdiv%253E%250A%2509%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+					style="
+						width: 1050px;
+						height: 651px;
+						border: 0;
+						transform: scale(1);
+						overflow: hidden;
+					"
+					sandbox="allow-scripts allow-same-origin"
+				>
+				</iframe>
+				<hr />
+			</div>
+
+			<!-- Horizontal Card -->
+
+			<div class="component-info-div">
+				<h3 class="text-title">Horizontal Card</h3>
+
+				<br />
+
+				<div class="card-container card-horizontal-container">
+					<div class="card-default">
+						<div class="card-header card-horizontal-header">
+							<div class="card-label">NEW</div>
+							<div
+								class="card-dismiss-btn card-hidden-element material-icons-outlined"
+							>
+								cancel
+							</div>
+
+							<div class="card-img-div">
+								<img
+									src="/Components/Card/Images/card-image.jpg"
+									class="card-img card-horizontal-img"
+								/>
+							</div>
+
+							<div class="card-text-div card-horizontal-text-div">
+								<h3 class="card-title">Card Title</h3>
+								<h4 class="card-subtitle">Card Subtitle</h4>
+							</div>
+						</div>
+
+						<div class="card-middle card-hidden-element">
+							<p class="card-description">
+								This is the description text for the card. This is the
+								description text for the card.
+							</p>
+						</div>
+
+						<div class="card-footer">
+							<h4>Price: $400</h4>
+							<button class="card-button"><a href="#">Button</a></button>
+						</div>
+					</div>
+				</div>
+
+				<br />
+				<iframe
+					src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=sharp&l=htmlmixed&width=1049.5&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=15.5px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-container%2520card-horizontal-container%2522%253E%250A%2509%253Cdiv%2520class%253D%2522card-default%2522%253E%250A%2509%2509%253Cdiv%2520class%253D%2522card-header%2520card-horizontal-header%2522%253E%250A%2509%2509%2509%253Cdiv%2520class%253D%2522card-label%2522%253ENEW%253C%252Fdiv%253E%250A%2509%2509%2509%253Cdiv%2520class%253D%2522card-dismiss-btn%2520card-hidden-element%2520material-icons-outlined%2522%253Ecancel%253C%252Fdiv%253E%250A%250A%2509%2509%2509%253Cdiv%2520class%253D%2522card-img-div%2522%253E%250A%2509%2509%2509%2509%253Cimg%2520src%253D%2522%252FComponents%252FCard%252FImages%252Fcard-image.jpg%2522%2520class%253D%2522card-img%2520card-horizontal-img%2522%2520%252F%253E%250A%2509%2509%2509%253C%252Fdiv%253E%250A%250A%2509%2509%2509%253Cdiv%2520class%253D%2522card-text-div%2520card-horizontal-text-div%2522%253E%250A%2509%2509%2509%2509%253Ch3%2520class%253D%2522card-title%2522%253ECard%2520Title%253C%252Fh3%253E%250A%2509%2509%2509%2509%253Ch4%2520class%253D%2522card-subtitle%2522%253ECard%2520Subtitle%253C%252Fh4%253E%250A%2509%2509%2509%253C%252Fdiv%253E%250A%2509%2509%253C%252Fdiv%253E%250A%250A%2509%2509%253Cdiv%2520class%253D%2522card-middle%2520card-hidden-element%2522%253E%250A%2509%2509%2509%253Cp%2520class%253D%2522card-description%2522%253E%250A%2509%2509%2509This%2520is%2520the%2520description%2520text%2520for%2520the%2520card.%2520This%2520is%2520the%2520description%2520text%2520for%2520the%2520card.%250A%2509%2509%2509%253C%252Fp%253E%250A%2509%2509%253C%252Fdiv%253E%250A%250A%2509%2509%253Cdiv%2520class%253D%2522card-footer%2522%253E%250A%2509%2509%2509%253Ch4%253EPrice%253A%2520%2524400%253C%252Fh4%253E%250A%2509%2509%2509%253Cbutton%2520class%253D%2522card-button%2522%253E%253Ca%2520href%253D%2522%2523%2522%253EButton%253C%252Fa%253E%253C%252Fbutton%253E%250A%2509%2509%253C%252Fdiv%253E%250A%2509%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+					style="
+						width: 1050px;
+						height: 651px;
+						border: 0;
+						transform: scale(1);
+						overflow: hidden;
+					"
+					sandbox="allow-scripts allow-same-origin"
+				>
+				</iframe>
+				<hr />
+			</div>
+		</div>
+	</body>
+</html>

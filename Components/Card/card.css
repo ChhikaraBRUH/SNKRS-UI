@@ -1,0 +1,152 @@
+/* Importing Common CSS File */
+
+@import "/common.css";
+
+/* Card Container */
+.card-container {
+	background-color: var(--white);
+	padding: var(--space-sm);
+	border-radius: var(--border-rad-lg);
+	width: 20rem;
+}
+
+/* Card Defaults Div */
+.card-default {
+	display: flex;
+	flex-direction: column;
+	gap: var(--space-sm);
+}
+
+/* Card Header */
+.card-header {
+	display: flex;
+	flex-direction: column;
+	gap: var(--space-sm);
+	position: relative;
+}
+
+/* Card Label */
+.card-label {
+	position: absolute;
+	z-index: 1;
+	left: 4%;
+	top: 4%;
+	background-color: var(--primary-color);
+	color: var(--white);
+	padding: var(--space-xs);
+	border-radius: var(--border-rad-md);
+	font-weight: 600;
+}
+
+/* Card Dismiss Button */
+.card-dismiss-btn {
+	position: absolute;
+	z-index: 1;
+	right: 4%;
+	top: 5%;
+	color: var(--black);
+	cursor: pointer;
+}
+
+/* Card Image Div */
+.card-img-div {
+	position: relative;
+}
+
+/* Card Image */
+.card-img {
+	border-radius: var(--border-rad-lg);
+	width: 18rem;
+}
+
+/* Card Title & Subtitle */
+
+.card-title {
+	color: var(--black);
+}
+
+.card-subtitle {
+	color: var(--gray);
+}
+
+/* Card Description */
+.card-description {
+	color: var(--gray);
+}
+
+/* Card Footer */
+.card-footer {
+	display: flex;
+	flex-direction: column;
+	gap: var(--space-xs);
+}
+
+/* Card Button */
+.card-button {
+	border: none;
+	padding: var(--space-sm);
+	box-shadow: 0 0.5rem 0.5rem -0.5rem var(--black);
+	border-radius: var(--border-rad-sm);
+	text-transform: uppercase;
+	font-family: inherit;
+	font-weight: 500;
+	letter-spacing: 1.2px;
+	font-size: 1.2rem;
+	cursor: pointer;
+	color: var(--black);
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	gap: var(--space-sm);
+	background-color: var(--black);
+	width: 100%;
+}
+
+.card-button a {
+	text-decoration: none;
+	color: var(--white);
+}
+
+/* Hidden Class Element */
+.card-hidden-element {
+	display: none;
+}
+
+/* Card With Text Overlay CSS */
+.card-text-overlay-title-div {
+	position: absolute;
+	bottom: 5%;
+	left: 5%;
+}
+
+.card-text-overlay-title {
+	color: var(--white);
+}
+
+.card-text-overlay-subtitle {
+	color: var(--white);
+}
+
+/* Card With Shadow */
+.card-shadow {
+	box-shadow: 0 0.5rem 1rem -0.5rem var(--black);
+}
+
+/* Horizontal Card */
+
+.card-horizontal-container {
+	flex-direction: row;
+	width: max-content;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.card-horizontal-header {
+	flex-direction: row;
+	align-items: center;
+}
+
+.card-horizontal-img {
+	width: 10rem;
+	height: 10rem;
+}

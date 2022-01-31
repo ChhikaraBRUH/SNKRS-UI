@@ -25,11 +25,11 @@
 	display: inline-flex;
 	align-items: center;
 	gap: var(--space-sm);
+	transition: all 0.4s ease-in-out;
 }
 
 .btn:hover {
 	filter: brightness(90%);
-	transition: all 0.4s ease-in-out;
 }
 
 /* Button Contained Variants */
@@ -49,6 +49,22 @@
 	color: var(--black);
 	pointer-events: none;
 	opacity: 0.7;
+}
+
+/* Link Buttons */
+
+.btn-link {
+	box-shadow: none;
+	background-color: var(--lynx-gray);
+}
+
+.btn-link:hover {
+	background-color: var(--lynx-white);
+}
+
+.btn-link a {
+	color: var(--black);
+	text-decoration: none;
 }
 
 /* Button Outlined Variants */

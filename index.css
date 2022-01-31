@@ -1,0 +1,53 @@
+/* Importing All Components CSS */
+@import "/components.css";
+
+/* Keyframes for Load Animation */
+
+@keyframes slideInFromBottom {
+	0% {
+		transform: translateY(2rem);
+		opacity: 0;
+	}
+	100% {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+
+/* Index Container */
+.index-container {
+	display: flex;
+	flex-direction: column;
+	width: 100vw;
+	height: 100vh;
+}
+
+/* Index Main */
+.index-main {
+	display: flex;
+	height: 100vh;
+	margin: var(--space-lg);
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: var(--space-sm);
+}
+
+/* Index Heading */
+.index-heading {
+	font-weight: 900;
+	color: var(--black);
+}
+
+/* Index Subheading */
+.index-subheading {
+	font-size: 1.2rem;
+	font-weight: 600;
+	color: var(--black);
+}
+
+/* CSS Selector for every element inside the "index-main" {Excludes NAV BAR} */
+
+.index-main * {
+	animation: 1s ease-out 0s 1 slideInFromBottom;
+}

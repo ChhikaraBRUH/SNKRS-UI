@@ -1,0 +1,59 @@
+/* Importing Common CSS File */
+
+@import "/common.css";
+
+/* Navbar Container */
+
+.nav-container {
+	position: sticky;
+	top: 0;
+	display: flex;
+	align-items: flex-end;
+	width: 100%;
+	padding: var(--space-md);
+	justify-content: space-between;
+	background-color: var(--white);
+}
+
+/* Left Side Elements */
+
+.left-nav {
+	font-size: 1.2rem;
+	font-weight: 900;
+}
+
+.nav-heading {
+	color: var(--primary-color);
+	text-decoration: none;
+}
+
+.nav-subheading {
+	color: var(--gray);
+	font-size: 0.85rem;
+	font-weight: 500;
+}
+
+/* Left Side Elements */
+
+.right-nav {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.nav-link {
+	margin: 0 var(--space-sm);
+	list-style: none;
+	font-weight: 700;
+	font-size: 1rem;
+}
+
+.nav-link a {
+	color: var(--black);
+	text-decoration: none;
+	cursor: pointer;
+	transition: all 0.4s ease;
+}
+
+.nav-link a:hover {
+	color: var(--primary-color);
+}

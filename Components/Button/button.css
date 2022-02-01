@@ -17,7 +17,7 @@
 	border-radius: var(--border-rad-sm);
 	text-transform: uppercase;
 	font-family: inherit;
-	font-weight: 400;
+	font-weight: 500;
 	letter-spacing: 1.2px;
 	font-size: 1rem;
 	cursor: pointer;
@@ -30,6 +30,11 @@
 
 .btn:hover {
 	filter: brightness(90%);
+}
+
+.btn a {
+	text-decoration: none;
+	color: inherit;
 }
 
 /* Button Contained Variants */

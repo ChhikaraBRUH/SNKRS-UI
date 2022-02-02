@@ -1,0 +1,65 @@
+/* Importing Common CSS File */
+
+@import "/common.css";
+
+/* Text Container */
+
+.text-container {
+	width: 100%;
+}
+
+/* Font Weights */
+
+.fw-300 {
+	font-weight: 300;
+}
+
+.fw-400 {
+	font-weight: 400;
+}
+
+.fw-500 {
+	font-weight: 500;
+}
+
+.fw-600 {
+	font-weight: 600;
+}
+
+.fw-700 {
+	font-weight: 700;
+}
+
+.fw-900 {
+	font-weight: 900;
+}
+
+/* Text List Style */
+
+.text-unsorted-list {
+	padding: 1rem;
+}
+
+/* Other Text Styles */
+
+.text-error-color {
+	color: var(--red);
+}
+
+.text-warning-color {
+	color: var(--yellow);
+}
+
+.text-success-color {
+	color: var(--green);
+}
+
+.text-strike {
+	text-decoration: line-through;
+}
+
+.text-underline {
+	text-decoration: underline;
+}
+
+/* Other commonly used classes are already mentioned in Common.css which is imported at the top. */

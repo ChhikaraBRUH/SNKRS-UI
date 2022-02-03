@@ -1,0 +1,59 @@
+/* Importing Common CSS File */
+
+@import "/common.css";
+
+/* List CSS */
+
+.list {
+	background-color: var(--white);
+	border: 2px solid var(--lynx-gray);
+	border-radius: var(--border-rad-lg);
+	list-style: none;
+	padding: var(--space-sm);
+	width: 15rem;
+}
+
+/* List Heading */
+
+.list-heading {
+	font-size: 1.2rem;
+	font-weight: 700;
+}
+
+/* Simple List Item */
+
+.list-simple li {
+	font-size: 1rem;
+	font-weight: 500;
+	margin: var(--space-sm) var(--space-xs) 0 var(--space-xs);
+}
+
+/* Simple Sub List Item */
+
+.list-sub-items {
+	list-style: none;
+	padding: 0 0 0 var(--space-xs);
+}
+
+/* List Item Hover */
+
+ul li {
+	transition: all 0.4s ease-in-out;
+}
+
+ul li:hover {
+	color: var(--secondary-color);
+	cursor: pointer;
+}
+
+/* Stacked List */
+
+.list-stacked li {
+	background-color: var(--lynx-white);
+	border: 1px solid var(--lynx-gray);
+	border-radius: var(--border-rad-lg);
+	font-size: 1rem;
+	font-weight: 500;
+	margin: var(--space-sm) var(--space-xs) 0 var(--space-xs);
+	padding: var(--space-sm);
+}

@@ -13,6 +13,7 @@
 	padding: var(--space-md);
 	justify-content: space-between;
 	background-color: var(--white);
+	box-shadow: 0 0.5rem 0.5rem -0.5rem var(--black);
 }
 
 /* Left Side Elements */

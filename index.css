@@ -1,7 +1,10 @@
-/* Importing All Components CSS */
-@import "/components.css";
+/* Importing Navigation, Button & Common CSS File */
+
+@import "/Components/Navigation/navigation.css";
+@import "/Components/Button/button.css";
 
 /* Keyframes for Load Animation */
+
 @keyframes slideInFromBottom {
 	0% {
 		transform: translateY(2rem);
@@ -14,6 +17,7 @@
 }
 
 /* Index Container */
+
 .index-container {
 	display: flex;
 	flex-direction: column;
@@ -22,6 +26,7 @@
 }
 
 /* Index Main */
+
 .index-main {
 	align-items: center;
 	display: flex;
@@ -33,12 +38,14 @@
 }
 
 /* Index Heading */
+
 .index-heading {
 	color: var(--black);
 	font-weight: 900;
 }
 
 /* Index Subheading */
+
 .index-subheading {
 	color: var(--black);
 	font-size: 1.2rem;

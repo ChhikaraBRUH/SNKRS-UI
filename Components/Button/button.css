@@ -1,7 +1,9 @@
-/* Importing Common CSS File */
-@import "/common.css";
+/* Importing Navigation & Common CSS File */
+
+@import "/Components/Navigation/navigation.css";
 
 /* Button Container */
+
 .btn-container {
 	display: flex;
 	align-items: flex-start;
@@ -10,6 +12,7 @@
 }
 
 /* Default Button and Hover Variant */
+
 .btn {
 	border: none;
 	padding: var(--space-sm);

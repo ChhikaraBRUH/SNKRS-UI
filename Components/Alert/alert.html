@@ -8,14 +8,44 @@
 		<link rel="stylesheet" href="alert.css" />
 	</head>
 	<body>
-		<div class="wrapper">
-			<!-- Page Heading -->
+		<!-- Navigation -->
+		<nav class="nav-container">
+			<div class="left-nav">
+				<a class="nav-heading" href="/index.html">SNKRS UI</a>
+				<span class="nav-subheading">v1.0</span>
+			</div>
 
+			<div class="right-nav">
+				<div class="nav-link"><a href="/docs.html">Get Started</a></div>
+				<div class="nav-link"><a href="https://github.com/ChhikaraBRUH/snkrs-ui">GitHub</a></div>
+				<div id="nav-menu-btn" class="material-icons">menu</div>
+			</div>
+		</nav>
+
+		<!-- Nav Menu -->
+
+		<div class="nav-menu">
+			<div id="nav-menu-close-btn" class="material-icons md-48">close</div>
+			<div class="nav-menu-link"><a href="/Components/Alert/alert.html">Alert</a></div>
+			<div class="nav-menu-link"><a href="/Components/Avatar/avatar.html">Avatar</a></div>
+			<div class="nav-menu-link"><a href="/Components/Badge/badge.html">Badge</a></div>
+			<div class="nav-menu-link"><a href="/Components/Button/button.html">Button</a></div>
+			<div class="nav-menu-link"><a href="/Components/Card/card.html">Card</a></div>
+			<div class="nav-menu-link"><a href="/Components/Image/image.html">Image</a></div>
+			<div class="nav-menu-link"><a href="/Components/Input/input.html">Input</a></div>
+			<div class="nav-menu-link"><a href="/Components/List/list.html">List</a></div>
+			<div class="nav-menu-link"><a href="/Components/Navigation/navigation.html">Navigation</a></div>
+			<div class="nav-menu-link"><a href="/Components/TextUtilitites/text-utilities.html">Text Utilities</a></div>
+		</div>
+
+		<!-- Page Heading -->
+
+		<div class="wrapper">
 			<div class="component-info-div">
 				<h2 class="text-title">Alert</h2>
 				<p class="text-description">
-					An alert displays a short, important message in a way that attracts
-					the user's attention without interrupting the user's task.
+					An alert displays a short, important message in a way that attracts the user's attention without interrupting
+					the user's task.
 				</p>
 				<hr />
 			</div>
@@ -23,10 +53,7 @@
 			<!-- Simple Alert Usage -->
 			<div class="component-info-div">
 				<h3 class="text-title">Simple Alert Component</h3>
-				<p class="text-description">
-					The alert offers four severity levels that set a distinctive icon and
-					color.
-				</p>
+				<p class="text-description">The alert offers four severity levels that set a distinctive icon and color.</p>
 				<br />
 
 				<div class="alert-container">
@@ -50,13 +77,7 @@
 				<br />
 				<iframe
 					src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=sharp&l=htmlmixed&width=660.25&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=15.5px&lh=133%25&si=false&es=2x&wm=false&code=%2509%253Cdiv%2520class%253D%2522alert%2520alert-error%2522%253E%250A%2509%2509%253Cdiv%2520class%253D%2522material-icons%2522%253Eerror%253C%252Fdiv%253E%250A%2509%2509%253Cp%253EThis%2520is%2520an%2520error%2520alert.%253C%252Fp%253E%250A%2509%253C%252Fdiv%253E%250A%250A%2509%253Cdiv%2520class%253D%2522alert%2520alert-warning%2522%253E%250A%2509%2509%253Cdiv%2520class%253D%2522material-icons%2522%253Ewarning%253C%252Fdiv%253E%250A%2509%2509%253Cp%253EThis%2520is%2520an%2520warning%2520alert.%253C%252Fp%253E%250A%2509%253C%252Fdiv%253E%250A%250A%2509%253Cdiv%2520class%253D%2522alert%2520alert-info%2522%253E%250A%2509%2509%253Cdiv%2520class%253D%2522material-icons%2522%253Einfo%253C%252Fdiv%253E%250A%2509%2509%253Cp%253EThis%2520is%2520an%2520info%2520alert.%253C%252Fp%253E%250A%2509%253C%252Fdiv%253E%250A%250A%2509%253Cdiv%2520class%253D%2522alert%2520alert-success%2522%253E%250A%2509%2509%253Cdiv%2520class%253D%2522material-icons%2522%253Etask_alt%253C%252Fdiv%253E%250A%2509%2509%253Cp%253EThis%2520is%2520an%2520success%2520alert.%253C%252Fp%253E%250A%2509%253C%252Fdiv%253E"
-					style="
-						width: 660px;
-						height: 466px;
-						border: 0;
-						transform: scale(1);
-						overflow: hidden;
-					"
+					style="width: 660px; height: 466px; border: 0; transform: scale(1); overflow: hidden"
 					sandbox="allow-scripts allow-same-origin"
 				>
 				</iframe>
@@ -64,4 +85,5 @@
 			</div>
 		</div>
 	</body>
+	<script src="/main.js"></script>
 </html>

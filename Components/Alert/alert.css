@@ -1,7 +1,9 @@
-/* Importing Common CSS File */
-@import "/common.css";
+/* Importing Navigation & Common CSS File */
+
+@import "/Components/Navigation/navigation.css";
 
 /* Alert Container */
+
 .alert-container {
 	display: flex;
 	flex-direction: column;
@@ -10,6 +12,7 @@
 }
 
 /* Alert */
+
 .alert {
 	display: flex;
 	align-items: center;

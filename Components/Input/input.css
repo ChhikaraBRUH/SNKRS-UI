@@ -1,6 +1,6 @@
-/* Importing Common CSS File */
+/* Importing Navigation & Common CSS File */
 
-@import "/common.css";
+@import "/Components/Navigation/navigation.css";
 
 /* Input-Form */
 

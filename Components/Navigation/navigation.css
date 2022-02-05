@@ -37,7 +37,7 @@
 	justify-content: center;
 	position: relative;
 	width: 100%;
-	height: 100vh;
+	min-height: 100vh;
 	background-color: var(--black);
 	gap: 1rem;
 	z-index: 50;
@@ -53,6 +53,13 @@
 
 .nav-menu .material-icons:hover {
 	color: var(--primary-color);
+}
+
+/* Nav Menu Items */
+
+.nav-menu-heading {
+	color: var(--primary-color);
+	border-bottom: 2px solid var(--white);
 }
 
 .nav-menu-link a {

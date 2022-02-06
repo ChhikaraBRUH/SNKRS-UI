@@ -9,14 +9,45 @@
 	</head>
 
 	<body>
-		<div class="wrapper">
-			<!-- Page Heading -->
+		<!-- Navigation -->
+		<nav class="nav-container">
+			<div class="left-nav">
+				<a class="nav-heading" href="/index.html">SNKRS UI</a>
+				<span class="nav-subheading">v1.0</span>
+			</div>
 
+			<div class="right-nav">
+				<div class="nav-link"><a href="/docs.html">Get Started</a></div>
+				<div class="nav-link"><a href="https://github.com/ChhikaraBRUH/snkrs-ui">GitHub</a></div>
+				<div id="nav-menu-btn" class="material-icons">menu</div>
+			</div>
+		</nav>
+
+		<!-- Nav Menu -->
+
+		<div class="nav-menu">
+			<div id="nav-menu-close-btn" class="material-icons md-48">close</div>
+			<h4 class="nav-menu-heading">COMPONENTS</h4>
+			<br />
+			<div class="nav-menu-link"><a href="/Components/Alert/alert.html">Alert</a></div>
+			<div class="nav-menu-link"><a href="/Components/Avatar/avatar.html">Avatar</a></div>
+			<div class="nav-menu-link"><a href="/Components/Badge/badge.html">Badge</a></div>
+			<div class="nav-menu-link"><a href="/Components/Button/button.html">Button</a></div>
+			<div class="nav-menu-link"><a href="/Components/Card/card.html">Card</a></div>
+			<div class="nav-menu-link"><a href="/Components/Image/image.html">Image</a></div>
+			<div class="nav-menu-link"><a href="/Components/Input/input.html">Input</a></div>
+			<div class="nav-menu-link"><a href="/Components/List/list.html">List</a></div>
+			<div class="nav-menu-link"><a href="/Components/Navigation/navigation.html">Navigation</a></div>
+			<div class="nav-menu-link"><a href="/Components/TextUtilitites/text-utilities.html">Text Utilities</a></div>
+		</div>
+
+		<!-- Page Heading -->
+
+		<div class="wrapper">
 			<div class="component-info-div">
 				<h2 class="text-title">Avatar Component</h2>
 				<p class="text-description">
-					The Avatar component is used to represent a user, and displays the
-					profile picture, initials or fallback icon.
+					The Avatar component is used to represent a user, and displays the profile picture, initials or fallback icon.
 				</p>
 				<hr />
 			</div>
@@ -26,30 +57,19 @@
 			<div class="component-info-div">
 				<h3 class="text-title">Usage</h3>
 				<p class="text-description">
-					Avatars in their simplest form display content, by default, within a
-					circular container.
+					Avatars in their simplest form display content, by default, within a circular container.
 				</p>
 
 				<br />
 
 				<div class="avatar-container">
-					<img
-						class="avatar"
-						src="/Components/Avatar/images/Avatar1.jpg"
-						alt="Avatar"
-					/>
+					<img class="avatar" src="/Components/Avatar/images/Avatar1.jpg" alt="Avatar" />
 				</div>
 				<br />
 
 				<iframe
 					src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=sharp&l=htmlmixed&width=510.25&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=15.5px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522avatar%2522%2520src%253D%2522...%2522%2520alt%253D%2522...%2522%2520%252F%253E"
-					style="
-						width: 430px;
-						height: 70px;
-						border: 0;
-						transform: scale(1);
-						overflow: hidden;
-					"
+					style="width: 430px; height: 70px; border: 0; transform: scale(1); overflow: hidden"
 					sandbox="allow-scripts allow-same-origin"
 				>
 				</iframe>
@@ -62,40 +82,21 @@
 			<div class="component-info-div">
 				<h3 class="text-title">Sizes</h3>
 				<p class="text-description">
-					Want more control over your avatars? Add <code>".avatar-lg"</code> ,
-					<code>".avatar-md"</code> or <code>".avatar-sm"</code> classes for
-					additional sizes.
+					Want more control over your avatars? Add <code>".avatar-lg"</code> , <code>".avatar-md"</code> or
+					<code>".avatar-sm"</code> classes for additional sizes.
 				</p>
 
 				<br />
 
 				<div class="avatar-container">
-					<img
-						class="avatar avatar-lg"
-						src="/Components/Avatar/images/Avatar1.jpg"
-						alt="Avatar Large"
-					/>
-					<img
-						class="avatar avatar-md"
-						src="/Components/Avatar/images/Avatar2.jpg"
-						alt="Avatar Medium"
-					/>
-					<img
-						class="avatar avatar-sm"
-						src="/Components/Avatar/images/Avatar3.jpg"
-						alt="Avatar Small"
-					/>
+					<img class="avatar avatar-lg" src="/Components/Avatar/images/Avatar1.jpg" alt="Avatar Large" />
+					<img class="avatar avatar-md" src="/Components/Avatar/images/Avatar2.jpg" alt="Avatar Medium" />
+					<img class="avatar avatar-sm" src="/Components/Avatar/images/Avatar3.jpg" alt="Avatar Small" />
 				</div>
 				<br />
 				<iframe
 					src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=sharp&l=htmlmixed&width=510&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=15.5px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522avatar%2520avatar-lg%2522%2520src%253D%2522...%2522%2520alt%253D%2522...%2522%2520%252F%253E%250A%250A%253Cimg%2520class%253D%2522avatar%2520avatar-md%2522%2520src%253D%2522...%2522%2520alt%253D%2522...%2522%2520%252F%253E%250A%250A%253Cimg%2520class%253D%2522avatar%2520avatar-sm%2522%2520src%253D%2522...%2522%2520alt%253D%2522...%2522%2520%252F%253E"
-					style="
-						width: 510px;
-						height: 161px;
-						border: 0;
-						transform: scale(1);
-						overflow: hidden;
-					"
+					style="width: 510px; height: 161px; border: 0; transform: scale(1); overflow: hidden"
 					sandbox="allow-scripts allow-same-origin"
 				>
 				</iframe>
@@ -109,8 +110,7 @@
 				<h3 class="text-title">Shapes</h3>
 				<p class="text-description">
 					Want some other different shapes for your Avatars? Add
-					<code>".avatar-rounded-corner"</code> or
-					<code>".avatar-square"</code> classes for some additional shapes.
+					<code>".avatar-rounded-corner"</code> or <code>".avatar-square"</code> classes for some additional shapes.
 					Default shape is circle, so no extra classes needed for that.
 				</p>
 
@@ -127,22 +127,12 @@
 						src="/Components/Avatar/images/Avatar2.jpg"
 						alt="Avatar Medium Square"
 					/>
-					<img
-						class="avatar avatar-sm"
-						src="/Components/Avatar/images/Avatar3.jpg"
-						alt="Avatar Small Circle"
-					/>
+					<img class="avatar avatar-sm" src="/Components/Avatar/images/Avatar3.jpg" alt="Avatar Small Circle" />
 				</div>
 				<br />
 				<iframe
 					src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=sharp&l=htmlmixed&width=510&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=15.5px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522avatar%2520avatar-lg%2520avatar-rounded-corner%2522%2520src%253D%2522...%2522%2520alt%253D%2522...%2522%2520%252F%253E%250A%250A%253Cimg%2520class%253D%2522avatar%2520avatar-md%2520avatar-square%2522%2520src%253D%2522...%2522%2520alt%253D%2522...%2522%2520%252F%253E%250A%250A%253Cimg%2520class%253D%2522avatar%2520avatar-sm%2522%2520src%253D%2522...%2522%2520alt%253D%2522...%2522%2520%252F%253E"
-					style="
-						width: 510px;
-						height: 202px;
-						border: 0;
-						transform: scale(1);
-						overflow: hidden;
-					"
+					style="width: 510px; height: 202px; border: 0; transform: scale(1); overflow: hidden"
 					sandbox="allow-scripts allow-same-origin"
 				>
 				</iframe>
@@ -151,4 +141,5 @@
 			</div>
 		</div>
 	</body>
+	<script src="/main.js"></script>
 </html>

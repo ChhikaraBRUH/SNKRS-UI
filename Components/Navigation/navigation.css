@@ -5,15 +5,73 @@
 /* Navbar Container */
 
 .nav-container {
-	position: sticky;
-	top: 0;
-	display: flex;
 	align-items: flex-end;
-	width: 100%;
-	padding: var(--space-md);
-	justify-content: space-between;
 	background-color: var(--white);
 	box-shadow: 0 0.5rem 0.5rem -0.5rem var(--black);
+	display: flex;
+	justify-content: space-between;
+	padding: var(--space-md);
+	position: sticky;
+	top: 0;
+	width: 100%;
+	z-index: 101;
+}
+
+/* Nav Menu Btn */
+
+#nav-menu-btn {
+	cursor: pointer;
+	transition: all 0.4s ease;
+}
+
+#nav-menu-btn:hover {
+	color: var(--primary-color);
+}
+
+/* Nav Menu */
+
+.nav-menu {
+	display: none;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	width: 100%;
+	min-height: 100vh;
+	background-color: var(--black);
+	gap: 1rem;
+	z-index: 50;
+}
+
+.nav-menu .material-icons {
+	color: var(--white);
+	cursor: pointer;
+	position: absolute;
+	right: 10%;
+	top: 10%;
+}
+
+.nav-menu .material-icons:hover {
+	color: var(--primary-color);
+}
+
+/* Nav Menu Items */
+
+.nav-menu-heading {
+	color: var(--primary-color);
+	border-bottom: 2px solid var(--white);
+}
+
+.nav-menu-link a {
+	color: var(--white);
+	font-size: 1.5rem;
+	font-weight: 700;
+	text-decoration: none;
+	transition: all 0.4s ease;
+}
+
+.nav-menu-link a:hover {
+	color: var(--primary-color);
 }
 
 /* Left Side Elements */
@@ -34,11 +92,12 @@
 	font-weight: 500;
 }
 
-/* Left Side Elements */
+/* Right Side Elements */
 
 .right-nav {
 	display: flex;
 	justify-content: space-evenly;
+	align-items: flex-end;
 }
 
 .nav-link {
@@ -50,8 +109,8 @@
 
 .nav-link a {
 	color: var(--black);
-	text-decoration: none;
 	cursor: pointer;
+	text-decoration: none;
 	transition: all 0.4s ease;
 }
 

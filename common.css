@@ -142,7 +142,7 @@ h6,
 /* Wrapper Div */
 
 .wrapper {
-	width: 70vw;
+	width: 80vw;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -162,7 +162,7 @@ h6,
 
 .component-info-div {
 	display: flex;
-	width: 80%;
+	width: 90%;
 	flex-direction: column;
 	align-items: flex-start;
 }
@@ -173,4 +173,48 @@ hr {
 	margin: var(--space-sm) 0rem;
 	border: none;
 	border-top: 1px solid var(--gray);
+}
+
+/* i-frame div */
+
+.iframe-div {
+	max-width: 100%;
+	overflow: scroll;
+}
+
+/* Responsive Parameters */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	html {
+		font-size: 12px;
+	}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+	html {
+		font-size: 14px;
+	}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+	html {
+		font-size: 16px;
+	}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	html {
+		font-size: 18px;
+	}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+	html {
+		font-size: 20px;
+	}
 }

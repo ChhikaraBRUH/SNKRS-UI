@@ -39,7 +39,7 @@
 	width: 100%;
 	min-height: 100vh;
 	background-color: var(--black);
-	gap: 1rem;
+	gap: 0.8rem;
 	z-index: 50;
 }
 

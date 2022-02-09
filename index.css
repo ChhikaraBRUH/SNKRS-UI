@@ -34,6 +34,7 @@
 	gap: var(--space-sm);
 	height: 100vh;
 	justify-content: center;
+	text-align: center;
 	margin: var(--space-lg);
 }
 

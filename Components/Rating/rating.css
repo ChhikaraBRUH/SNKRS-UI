@@ -1,0 +1,22 @@
+/* Importing Navigation & Common CSS File */
+
+@import "/Components/Navigation/navigation.css";
+
+/* Rating Container */
+
+.rating-container {
+	cursor: pointer;
+}
+
+/* Rating Star */
+
+.rating-star {
+	color: var(--lynx-gray);
+}
+
+/* Hover State & Active Rating State */
+
+.rating-hover,
+.rating-active {
+	color: var(--yellow);
+}

@@ -1,0 +1,51 @@
+/* Importing Navigation & Common CSS File */
+
+@import "/Components/Navigation/navigation.css";
+
+/* Grid Component Container */
+
+.grid-component-container {
+	width: 100%;
+	height: 20rem;
+}
+
+/* Two Column Grid */
+
+.grid-col-2 {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-auto-flow: row;
+	height: 100%;
+}
+
+/* Three Column Grid */
+
+.grid-col-3 {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-auto-flow: row;
+	height: 100%;
+}
+
+/* Sample Grid Items */
+
+.grid-item-1 {
+	background-color: var(--blue);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.grid-item-2 {
+	background-color: var(--red);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.grid-item-3 {
+	background-color: var(--green);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}

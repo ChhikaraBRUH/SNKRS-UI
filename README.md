@@ -163,3 +163,5 @@ You can find the documentation [here.](https://snkrs-ui.netlify.app/components/t
 <hr/>
 
 Have a look at the implementation of [SNKRS UI.](https://snkrs-ui.netlify.app)
+Watch a walkthrough video @ [Walthrough Video](https://www.loom.com/embed/c8fec452fe3f48e18818f671de168400)
+

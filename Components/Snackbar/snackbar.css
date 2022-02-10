@@ -1,0 +1,21 @@
+/* Importing Button, Navigation & Common CSS File */
+
+@import "/Components/Button/button.css";
+
+/* Snackbar Container */
+
+.snackbar-container {
+	background-color: var(--black);
+	border-radius: var(--border-rad-sm);
+	color: var(--white);
+	display: none;
+	align-items: center;
+	gap: var(--space-sm);
+	justify-content: center;
+	position: fixed;
+	padding: var(--space-sm);
+	bottom: 5%;
+	right: 5%;
+	width: max-content;
+	z-index: 150;
+}

@@ -14,14 +14,9 @@
 	color: var(--lynx-gray);
 }
 
-/* Hover State */
+/* Hover State & Active Rating State */
 
-.rating-hover {
-	color: var(--yellow);
-}
-
-/* Active Rating */
-
+.rating-hover,
 .rating-active {
 	color: var(--yellow);
 }

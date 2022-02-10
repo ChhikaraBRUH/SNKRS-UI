@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Modal Component</title>
+		<link rel="stylesheet" href="modal.css" />
+	</head>
+
+	<body>
+		<!-- Navigation -->
+		<nav class="nav-container">
+			<div class="left-nav">
+				<a class="nav-heading" href="/index.html">SNKRS UI</a>
+				<span class="nav-subheading">v1.0</span>
+			</div>
+
+			<div class="right-nav">
+				<div class="nav-link"><a href="/docs.html">Get Started</a></div>
+				<div class="nav-link"><a href="https://github.com/ChhikaraBRUH/snkrs-ui">GitHub</a></div>
+				<div id="nav-menu-btn" class="material-icons">menu</div>
+			</div>
+		</nav>
+
+		<!-- Nav Menu -->
+
+		<div class="nav-menu">
+			<div id="nav-menu-close-btn" class="material-icons md-48">close</div>
+			<h4 class="nav-menu-heading">COMPONENTS</h4>
+			<br />
+			<div class="nav-menu-link"><a href="/Components/Alert/alert.html">Alert</a></div>
+			<div class="nav-menu-link"><a href="/Components/Avatar/avatar.html">Avatar</a></div>
+			<div class="nav-menu-link"><a href="/Components/Badge/badge.html">Badge</a></div>
+			<div class="nav-menu-link"><a href="/Components/Button/button.html">Button</a></div>
+			<div class="nav-menu-link"><a href="/Components/Card/card.html">Card</a></div>
+			<div class="nav-menu-link"><a href="/Components/Grid/grid.html">Grid</a></div>
+			<div class="nav-menu-link"><a href="/Components/Image/image.html">Image</a></div>
+			<div class="nav-menu-link"><a href="/Components/Input/input.html">Input</a></div>
+			<div class="nav-menu-link"><a href="/Components/List/list.html">List</a></div>
+			<div class="nav-menu-link"><a href="/Components/Modal/modal.html">Modal</a></div>
+			<div class="nav-menu-link"><a href="/Components/Navigation/navigation.html">Navigation</a></div>
+			<div class="nav-menu-link"><a href="/Components/Rating/rating.html">Rating</a></div>
+			<div class="nav-menu-link"><a href="/Components/Snackbar/snackbar.html">Snackbar</a></div>
+			<div class="nav-menu-link"><a href="/Components/TextUtilitites/text-utilities.html">Text Utilities</a></div>
+		</div>
+
+		<!-- Page Heading -->
+
+		<div class="wrapper">
+			<div class="component-info-div">
+				<h2 class="text-title">Modal Component</h2>
+				<p class="text-description">
+					The modal component provides a solid foundation for creating dialogs, popovers, lightboxes, or whatever else.
+				</p>
+				<hr />
+			</div>
+
+			<!-- Simple Modal Usage -->
+
+			<div class="component-info-div">
+				<h3 class="text-title">Simple Modal</h3>
+				<p class="text-description">You can click on the Cancel button or anywhere outside the modal to close it.</p>
+
+				<br />
+
+				<!-- Modal Button -->
+				<div class="modal-open-btn">
+					<button class="btn btn-secondary">Open Modal</button>
+				</div>
+
+				<!-- Modal Container -->
+				<div class="modal-container">
+					<div class="modal">
+						<h4>Delete permanently?</h4>
+						<p>Click on the Cancel button to close the modal.</p>
+						<div class="modal-btns">
+							<button id="modal-close-btn" class="btn">Cancel</button>
+							<button class="btn btn-primary">Delete</button>
+						</div>
+					</div>
+				</div>
+
+				<br />
+
+				<div class="iframe-div">
+					<iframe
+						src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=sharp&l=htmlmixed&width=700&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=15.5px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522modal-container%2522%253E%250A%2509%253Cdiv%2520class%253D%2522modal%2522%253E%250A%2509%2509%253Ch4%253EDelete%2520permanently%253F%253C%252Fh4%253E%250A%2509%2509%253Cp%253EClick%2520on%2520the%2520Cancel%2520button%2520to%2520close%2520the%2520modal.%253C%252Fp%253E%250A%2509%2509%253Cdiv%2520class%253D%2522modal-btns%2522%253E%250A%2509%2509%2509%253Cbutton%2520id%253D%2522modal-cancel-btn%2522%2520class%253D%2522btn%2522%253ECancel%253C%252Fbutton%253E%250A%2509%2509%2509%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253EDelete%253C%252Fbutton%253E%250A%2509%2509%253C%252Fdiv%253E%250A%2509%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+						style="width: 700px; height: 263px; border: 0; transform: scale(1); overflow: hidden"
+						sandbox="allow-scripts allow-same-origin"
+					>
+					</iframe>
+				</div>
+
+				<hr />
+			</div>
+		</div>
+	</body>
+	<script src="/main.js"></script>
+	<script src="modal.js"></script>
+</html>
